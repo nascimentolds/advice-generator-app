@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e2430;
+  color: #d0e1eb;
+  font-family: "Nanum Pen Script", cursive, sans-serif;
+}
+
+.box {
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  width: 420px;
+  align-items: center;
+  background-color: #313a49;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.advice-id {
+  color: #56fdab;
+  font-family: sans-serif;
+  font-size: 7.5pt;
+  margin: 10px;
+  letter-spacing: 0.2rem;
+}
+
+.advice {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 2rem;
+  font-weight: lighter;
+  padding: 10px;
+}
+
+.line {
+  margin-bottom: 30px;
+  width: 350px;
+}
+
+button {
+  background-color: #56fdab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 190px;
+  cursor: pointer;
+}
+
+button img {
+  width: 20px;
+}
+
+button:hover {
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .content {
+    max-width: 300px;
+  }
+
+  .line {
+    width: 250px;
+  }
+
+  button {
+    margin-top: 220px;
+  }
+}
