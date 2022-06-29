@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Advice Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet" />
 
-    <script type="text/javascript" src="./assets/index.js" defer></script>
-    <link rel="stylesheet" href="./assets/index.css" />
-  </head>
+  <title>Advice Generator</title>
 
-  <body>
-    <div class="box">
-      <div class="content">
-        <span id="adviceId" class="advice-id">ADVICE #178</span>
-        <h1 id="advice" class="advice">
-          "It always seems impossible, until it's done."
-        </h1>
-        <img src="./assets/line.svg" alt="Line detail" class="line" />
-      </div>
-      <button type="button">
+  <script type="text/javascript" src="./assets/index.js" defer></script>
+  <link rel="stylesheet" href="./assets/index.css" />
+</head>
+
+<body>
+  <div class="box">
+    <div class="content">
+      <span id="id" class="advice-id"></span>
+      <h1 id="advice" class="advice"></h1>
+      <img src="./assets/line.svg" alt="Line detail" class="line" />
+    </div>
+      <button type="button" onclick="advice()">
         <img src="./assets/dice.svg" alt="Line detail" />
       </button>
-    </div>
-  </body>
+  </div>
+</body>
+
 </html>
