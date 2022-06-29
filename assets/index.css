@@ -6,8 +6,8 @@
 }
 
 body {
-  background-color: #1e2430;
-  color: #d0e1eb;
+  background-color: hsl(218, 23%, 16%);
+  color: hsl(193, 38%, 86%);
   font-family: "Nanum Pen Script", cursive, sans-serif;
 }
 
@@ -28,14 +28,14 @@ body {
   margin-right: auto;
   width: 420px;
   align-items: center;
-  background-color: #313a49;
+  background-color: hsl(217, 19%, 24%);
   padding: 30px;
   border-radius: 10px;
   text-align: center;
 }
 
 .advice-id {
-  color: #56fdab;
+  color: hsl(150, 100%, 66%);
   font-family: sans-serif;
   font-size: 7.5pt;
   margin: 10px;
@@ -57,7 +57,7 @@ body {
 }
 
 button {
-  background-color: #56fdab;
+  background-color: hsl(150, 100%, 66%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,6 +76,7 @@ button img {
 
 button:hover {
   animation: rotate 3s linear infinite;
+  box-shadow: 0 0 2em hsl(150, 100%, 66%);
 }
 
 @keyframes rotate {
@@ -95,4 +96,14 @@ button:hover {
   .line {
     width: 250px;
   }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
