@@ -75,7 +75,7 @@ button img {
 }
 
 button:hover {
-  animation: rotate 3s linear infinite;
+  animation: rotate 3s linear ease-in-out;
   box-shadow: 0 0 2em hsl(150, 100%, 66%);
 }
 
